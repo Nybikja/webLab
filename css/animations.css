@@ -1,0 +1,49 @@
+button.button_register:hover {
+    background-color: white;
+    color:#FB8F1D;
+    
+}
+button.button_login:hover {
+    background-color: #FB8F1D;
+    color:white;
+}
+
+a.header_navigation:hover {
+    color: #75667a;
+}
+
+button.button_download:hover {
+    background-color: white;
+    color:#FB8F1D;
+    transition: 0.3s;
+}
+
+a.button_view:hover, a.button_read_more:hover{
+    color: #75667a;
+    transition: 0.3s;
+}
+
+@keyframes floating {
+    0% {
+      transform: translateY(50px);
+    }
+  
+    50% {
+      transform: translateY(150px);
+      transform: translateX(100px);
+    }
+  
+    100% {
+      transform: translateY(50px);
+      
+    }
+}
+
+@keyframes scale {
+    0% {
+      transform: scaleX(0.5) scaleY(0.5);
+      }
+    100% {
+      transform: scaleX(1) scaleY(1);
+      }
+}

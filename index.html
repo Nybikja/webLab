@@ -12,10 +12,13 @@
 
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id="body">
     <header>
+        <div  onclick="toggleMenu()" id="header_burger" class="header_burger">
+            <span></span>
+        </div>
         <div class="header_body">
-            <nav class="navigation_top">
+            <nav class="navigation_top" id="links_nav">
                 <ul class="ul_navigation">
                     <li><a href="#" id="home" class="header_navigation">Home</a></li> 
                     <li><a href="#" class="header_navigation">Destination</a></li>
@@ -24,7 +27,7 @@
                 </ul>
             </nav>
             <div class="header_logo">
-                <img src="./images/logo.png" alt="not found">
+                <img src="./images/logo.png" class="circle">
             </div>
             <div class="buttons">
                 <button href="#" type="button" class="button_login">Login</button>
@@ -32,6 +35,7 @@
             </div>
         </div>
     </header>
+
     <section class="hero_section">
         <div class="about_us">
             <div class="about_text">
@@ -39,11 +43,94 @@
             <h6 class="about_p">Packed with tips and advice from our on-the-ground experts, our city guides app (iOS and Android) is the ultimate resource before and during a trip.</h6>
             <button  class="button_download">Download</button>
         </div>
-            <div class="intro__photo">        
-                <img src="./images/Thousand-03.png" alt="not found">
+            <div class="intro_photo">        
+                <img src="./images/Thousand-03.png" class="thousand">
             </div>
         </div>
     </section>
 
+    <section class="section2">
+        <div class="container_main">
+            <div class="text_block">
+                <h3 class="header_text">Testimonials</h3>
+                <img class="star_icon" src="./images/star.png">
+                <img class="star_icon" src="./images/star.png">
+                <img class="star_icon" src="./images/star.png">
+                <img class="star_icon" src="./images/star.png">
+                <img class="star_icon" src="./images/star.png">
+                <div class="main_text">
+                    <h2 class="main_subtitle">“Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec”</h2>
+                    <h1 class="main_author">Edward Newgate</h1>
+                    <h1 class="main_author_subtitle">Founder Circle</h1>
+                </div>
+            </div>
+            <div class="main_photo">
+                <img src="./images/image 6.png" alt="" class="image_main">
+            </div>
+        </div>
+    </section>
+
+    <section class="section3">
+        <div class="container">
+            <div class="posts_block">
+                <h3 class="posts_header">Trending stories</h3>
+                <a class="button_view" href="#">View all ></a>
+            </div>
+            <div class="posts">
+                <div class="post">
+                    <img src="./images/image 12.png" class="post_img">
+                    <h2 class="post_header">The many benefits of  
+                        taking a healing holiday</h2>
+                    <h2 class="post_title">‘Helaing holidays’ are on the rise 
+                        tohelp maximise your health and happines...</h2>
+                    <a class="button_read_more" href="#">Read more</a>
+                </div>
+                <div class="post">
+                    <img src="./images/image 13.png" class="post_img">
+                    <h2 class="post_header">The best Kyoto restaurant
+                        to try Japanese food</h2>
+                    <h2 class="post_title">From tofu to teahouses, here’s our guide to Kyoto’s best restaurants
+                        to visit...</h2>
+                    <a class="button_read_more" href="#">Read more</a>
+                </div>
+                <div class="post">
+                    <img src="./images/image 14.png" class="post_img">
+                    <h2 class="post_header">Skip Chichen Itza and head
+                        to this remote Yucatan</h2>
+                    <h2 class="post_title">It’s remote and challenging to get,
+                        but braving the jungle and exploring
+                        these ruins without the...</h2>
+                    <a class="button_read_more" href="#">Read more</a>
+                </div>
+                <div class="post">
+                    <img src="./images/image 15.png" class="post_img">
+                    <h2 class="post_header">Surf’s up at these beginner
+                        spots around the world</h2>
+                    <h2 class="post_title">If learning to surf has in on your to-
+                        do list for a while, the good news
+                        is: it’s never too late...</h2>
+                    <a class="button_read_more" href="#">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="footer_title">
+                <img src="./images/logo.png" class="footer_logo">
+                <h1 class="copyright">©2020 Thousand Sunny. All rights reserved</h1>
+            </div>
+            <hr class="line">
+            <div class="footer_icons">
+                <a href="#"><img src="./images/twiter.png"></a>
+                <a href="#"><img src="./images/facebook.png"></a>
+                <a href="#"><img src="./images/insta.png"></a>
+                <a href="#"><img src="./images/in.png"></a>
+                <a href="#"><img src="./images/youtube.png"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
 </body>
 </html>

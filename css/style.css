@@ -174,7 +174,7 @@ button {
         flex-direction: column;
         padding-left: 0;
         height: 20%;
-        margin-top: 100%;
+        margin-top: 0%;
         justify-content: space-evenly;
     }
     a.header_navigation#home, a.header_navigation {

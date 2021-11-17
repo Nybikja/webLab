@@ -1,0 +1,57 @@
+.intro{
+	margin-top: 5px;
+}
+.introduction{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #185355;
+    border: 1px solid green;
+}
+
+.text{
+    color: antiquewhite;
+    padding-top: 50px;
+    padding-right: 100px;
+}
+
+.title{
+    border-top:1px solid green;
+    border-bottom: 1px solid green;
+}
+
+.paragraph{
+    color: rgb(216, 211, 211);
+    font-size: 20px;
+    font-weight: 600;
+}
+.paragraph .more{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.photo{
+    margin: 10px;
+    width: 530px;
+    height: 330px;
+    padding: 5px;
+    border: 1px solid green;
+}
+.content{
+    margin-top: 5px;
+    background-color: #185355;
+    border: 1px solid green;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.buttom{
+    text-align: center;
+}
+.viewmore{
+    margin-bottom: 20px;
+    background-color: green;
+    width: 200px;
+    height: 50px;
+}

@@ -1,0 +1,29 @@
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #53921d;
+    color: white;
+    font-size: 25px;
+}
+
+.header_section{
+    display: flex;
+    align-items: center;
+}
+.name{
+    font-size: 30px;
+}
+.item{
+    margin-right: 100px;
+}
+.item:hover{
+    border-bottom: 1px solid white;
+}

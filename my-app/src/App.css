@@ -1,0 +1,246 @@
+.App {
+  text-align: center;
+}
+
+.circularProgress{
+  margin-left: 920px;
+  margin-top: 300px;
+}
+
+.circular{
+  min-height: 80vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  color: white;
+}
+
+.navTitle {
+  font-family: 'Nunito';
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.nav-links {
+  font-family: 'Nunito';
+  font-size: 25px;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.button {
+  font-weight: bold;
+  border: 0;
+  border-radius: 8px;
+  width:50%;
+  height: 40px;
+  margin-left:25%;
+  margin-right:25%;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #2a2c2a;
+  color: white;
+}
+
+.button_cart {
+  font-weight: bold;
+  border: 0;
+  border-radius: 8px;
+  width:50%;
+  height: 40px;
+  margin-left:25%;
+  margin-right:25%;
+  transition-duration: 0.4s;
+}
+
+.button_cart:hover {
+  background-color: #2a2c2a;
+  color: white;
+}
+
+.buttonSecondPage {
+  font-weight: bold;
+  border: 0;
+  border-radius: 8px;
+  width:10%;
+  height: 45px;
+  align-items: center;
+  transition-duration: 0.4s;
+}
+
+.buttonSecondPage:hover {
+  background-color: #2a2c2a;
+  color: white;
+}
+
+.buttonSort {
+  font-weight: bold;
+  border: 0;
+  border-radius: 8px;
+  width: 120px;
+  height: 45px;
+  align-items: center;
+  transition-duration: 0.4s;
+}
+
+.buttonSort:hover {
+  background-color: #2a2c2a;
+  color: white;
+}
+
+.inputSearch {
+  font-weight: bold;
+  height: 40px;
+  border-radius: 4px;
+  border: 0;
+}
+
+.cart ion-icon {
+  vertical-align: bottom;
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+/* ----- FOR REDUX ----- */
+
+.container-products{
+  max-width: 650px;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.container-products ion-icon{
+  font-size: 25px;
+  color: antiquewhite;
+  cursor: pointer;
+}
+
+.product ion-icon{
+  cursor: pointer;
+}
+
+.product-header{
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid lightgray;
+  margin: 0 auto;
+}
+
+.product-title{
+  width: 45%;
+  color: antiquewhite;
+}
+
+.quantity{
+  width: 15%;
+  color: antiquewhite;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+}
+
+.price{
+  width: 30%;
+  color: antiquewhite;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.paragraph{
+  width: 40%;
+  color: antiquewhite;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+}
+
+.product{
+  width: 45%;
+  color: antiquewhite;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid lightgray;
+}
+
+.products{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.basketTotalContainer{
+  display: flex;
+  color: antiquewhite;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.basketTotalTitle{
+  color: antiquewhite;
+  width: 30%;
+}
+
+.basketTotal{
+  width: 10%;
+}
+
+.media{
+  width: 75px;
+  height: 140px;
+}
+
+
+
+#------------------------
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
